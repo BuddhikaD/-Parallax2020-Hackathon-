@@ -1,20 +1,20 @@
 @font-face{
     font-family: Gilroy-light;
-    src: url(fonts/Gilroy-Light.otf);
+    src: url(/fonts/Gilroy-Light.otf);
 }
 @font-face{
     font-family: Gilroy-ExtraBold;
-    src: url(fonts/Gilroy-ExtraBold.otf);
+    src: url(/fonts/Gilroy-ExtraBold.otf);
 }
 
 *{
     box-sizing: border-box;
-    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-light', sans-serif;
 }
 
 body{
     margin: 0;
-    background-image: url(../assets/raji.jpg);
+    background-image: url(/assets/raji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -132,7 +132,7 @@ main h5{
 
 main h6{
     font-size: 1.2em;
-    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-light', sans-serif;
     padding: 40px;
     color: white;
     position: fixed;
@@ -151,7 +151,7 @@ main h6{
 
 main p{
     font-size: 1.2em;
-    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-light', sans-serif;
     padding: 40px;
     color: white;
     position: fixed;
