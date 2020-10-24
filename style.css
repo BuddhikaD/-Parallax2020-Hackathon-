@@ -9,7 +9,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
 }
 
 body{
@@ -22,10 +22,43 @@ nav{
     left: 0;
     width: 400px;
     height: 100%;
-    background: red;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 main{
     margin-left: 400px;
     padding: 30px;
+}
+
+nav img{
+    width: 70%;
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 50px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 32px;
+    color: black;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover{
+    color: #333333;
+}
+
+nav p{
+    margin-top: 100px;
+}
+
+#sico{
+    width: 30px;
 }
