@@ -1,10 +1,10 @@
 @font-face{
     font-family: Gilroy-light;
-    src: url(/fonts/Gilroy-Light.otf);
+    src: url(../fonts/Gilroy-light.otf);
 }
 @font-face{
     font-family: Gilroy-ExtraBold;
-    src: url(/fonts/Gilroy-ExtraBold.otf);
+    src: url(../fonts/Gilroy-ExtraBold.otf);
 }
 
 *{
@@ -14,7 +14,7 @@
 
 body{
     margin: 0;
-    background-image: url(/assets/raji.jpg);
+    background-image: url(../assets/raji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
