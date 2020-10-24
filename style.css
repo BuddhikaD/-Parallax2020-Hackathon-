@@ -1,4 +1,4 @@
-@font-face{
+ @font-face{
     font-family: Gilroy-light;
     src: url(fonts/Gilroy-Light.otf);
 }
@@ -9,12 +9,12 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-family: 'Gilroy-light', sans-serif;
 }
 
 body{
     margin: 0;
-    background-image: url(assets/landingpage.png);
+    background-image: url(assets/raji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@ nav a{
     display: inline-block;
     text-decoration: none;
     padding: 5px 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: black;
     letter-spacing: 0.05em;
 }
@@ -59,6 +59,12 @@ nav p{
     margin-left: 1em;
 }
 
+#social{
+    position: fixed;
+    bottom: 4em;
+    margin-left: 0.9em;
+}
+
 #search{
     border-radius: 15px;
     border: black;
@@ -66,7 +72,7 @@ nav p{
     border-width: 0.1em;
     height: 30px;
     margin-left: 1em;
-    position: fixed;
+    margin-bottom: 3em;
 }
 
 #sico{
@@ -82,28 +88,29 @@ main{
 
 main img{
     height: 100vh;
+    width: 70.7%;
     margin-left: 400px;
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 0px;
     z-index: -1;
 }
 
-main h1{
+/* main h1{
     font-size: 8em;
     padding: 40px;
     color: white;
     position: fixed;
     bottom: 0.05em;
-}
+} */
 
-main h2{
+/* main h2{
     font-size: 6em;
     padding: 40px;
     color: white;
     position: fixed;
     bottom: 1.6em;
-}
+}  */
 
 main h3{
     font-size: 3em;
@@ -112,21 +119,25 @@ main h3{
     margin-top: 0;
     position: fixed;
     top: 0.1em;
-}
+} 
 
 main h4{
     font-size: 3em;
     font-family: 'Gilroy-Light', sans-serif;
     padding: 40px;
     color: white;
-    position: fixed;
-    top: 2.5em;
-}
+    top: 0.1em;
+}  
 
-main p{
+ main h5{
     font-size: 2em;
     padding: 40px;
     color: white;
-    position: fixed;
-    bottom: 0.1em;
 }
+
+main p{
+    font-size: 1.5em;
+    padding: 40px;
+    color: white;
+    bottom: 0.1em;
+} 
