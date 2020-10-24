@@ -6,3 +6,26 @@
     font-family: Gilroy-ExtraBold;
     src: url(fonts/Gilroy-ExtraBold.otf);
 }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background: red;
+}
+
+main{
+    margin-left: 400px;
+    padding: 30px;
+}
