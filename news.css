@@ -97,7 +97,7 @@ main img{
 }
 
 main h1{
-    font-size: 6em;
+    font-size: 4em;
     padding: 40px;
     color: white;
     margin-top: 0;
@@ -105,7 +105,7 @@ main h1{
 }
 
 main h2{
-    font-size: 2em;
+    font-size: 1.3em;
     padding: 40px;
     color: white;
     margin-top: 0;
@@ -133,13 +133,14 @@ main h4{
 
 #card{
     position: fixed;
-    top: 30%;
-    padding: 30px;
+    top: 23%;
+    padding: 25px;
 }
 
 .column {
     display: inline-flex;
-    width: 25%;
+    width: 28%;
+    height: 300px;
     padding: 10px;
     margin-left: 15px;
     border-radius: 20px;
@@ -162,7 +163,7 @@ section img{
 }
 
 section h2{
-    font-size: 2em;
+    font-size: 1.3em;
     padding: 45px;
     color: white;
     position: fixed;
@@ -170,13 +171,18 @@ section h2{
 }
 
 section h5{
-    margin: 15px;
     font-size: 1.5em;
+    position: fixed;
+    top: 48%;
+    padding-left: 0.3em;
 }
 
 section p{
-    margin: 15px;
+    
     font-size: 1em;
+    position: fixed;
+    top: 55%;
+    padding-left: 0.5em;
 }
 
 #newsletter{
@@ -187,6 +193,16 @@ section p{
     width: 400px;
     height: 45px;
     position: fixed;
-    bottom: 9em;
+    bottom: 5.5em;
     margin-left: 45px;
+}
+
+#submitbtn{
+    width: 60px;
+    height: 47px;
+    position: fixed;
+    bottom: 5.5em;
+    margin-left: 450px;
+    border-radius: 15px;
+    border:none;
 }
