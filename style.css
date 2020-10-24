@@ -14,6 +14,8 @@
 
 body{
     margin: 0;
+    background-image: url(assets/landingpage.png);
+    background-size: 100%;
 }
 
 nav{
@@ -22,7 +24,7 @@ nav{
     left: 0;
     width: 400px;
     height: 100%;
-    background: #f2f2f2;
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +33,7 @@ nav{
 nav img{
     width: 70%;
     display: block;
-    margin-top: 36px;
+    margin-top: 2em;
     margin-bottom: 50px;
 }
 
@@ -49,7 +51,16 @@ nav a:hover{
 }
 
 nav p{
-    margin-top: 100px;
+    position: fixed;
+    bottom: 2.3em;
+}
+
+#search{
+    border-radius: 15px;
+    border: black;
+    border-style: solid;
+    border-width: 0.1em;
+    height: 30px;
 }
 
 #sico{
@@ -58,15 +69,55 @@ nav p{
 
 main{
     margin-left: 400px;
-    padding: 30px;
+}
+
+main img{
+    height: 100vh;
+    margin-left: 400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 main h1{
+    font-size: 8em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0.1em;
+}
+
+main h2{
+    font-size: 6em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 1.6em;
+}
+
+main h3{
     font-size: 3em;
+    padding: 40px;
+    color: white;
+    margin-top: 0;
+    position: fixed;
+    top: 0.1em;
 }
 
 main h4{
-    margin-top: -30px;
     font-size: 3em;
     font-family: 'Gilroy-Light', sans-serif;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    top: 2.5em;
+}
+
+main p{
+    font-size: 2em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0.1em;
 }
