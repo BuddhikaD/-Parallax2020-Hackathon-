@@ -6,3 +6,127 @@
     font-family: Gilroy-ExtraBold;
     src: url(fonts/Gilroy-ExtraBold.otf);
 }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url(assets/landingpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3em;
+}
+
+nav img{
+    width: 70%;
+    display: block;
+    top: 2em;;
+    margin-top: 2em;
+    margin-bottom: 20px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover{
+    color: #333333;
+}
+
+nav p{
+    position: fixed;
+    bottom: 2.3em;
+    margin-left: 1em;
+}
+
+#search{
+    border-radius: 15px;
+    border: black;
+    border-style: solid;
+    border-width: 0.1em;
+    height: 30px;
+    margin-left: 1em;
+    position: fixed;
+}
+
+#sico{
+    width: 30px;
+    position: fixed;
+    top: 10em;
+    left: 14.5em;
+}
+
+main{
+    margin-left: 400px;
+}
+
+main img{
+    height: 100vh;
+    margin-left: 400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+main h1{
+    font-size: 8em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0.05em;
+}
+
+main h2{
+    font-size: 6em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 1.6em;
+}
+
+main h3{
+    font-size: 3em;
+    padding: 40px;
+    color: white;
+    margin-top: 0;
+    position: fixed;
+    top: 0.1em;
+}
+
+main h4{
+    font-size: 3em;
+    font-family: 'Gilroy-Light', sans-serif;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    top: 2.5em;
+}
+
+main p{
+    font-size: 2em;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0.1em;
+}
