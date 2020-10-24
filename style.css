@@ -78,7 +78,7 @@ nav p{
 #sico{
     width: 30px;
     position: fixed;
-    top: 10.3em;
+    top: 10em;
     left: 14.5em;
 }
 
@@ -121,7 +121,7 @@ main h3{
 }
 
 main h4{
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Gilroy-Light', sans-serif;
     padding: 40px;
     color: white;
