@@ -83,7 +83,7 @@ main{
 main img{
     height: 100vh;
     margin-left: 400px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
