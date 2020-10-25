@@ -145,8 +145,9 @@ main h6{
     padding: 40px;
     color: white;
     position: fixed;
-    bottom: 13.5em;
+    bottom: 10em;
 }
+
 #bot{
     font-size: 1em;
     font-family: 'Gilroy-ExtraBold', sans-serif;
