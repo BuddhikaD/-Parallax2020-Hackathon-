@@ -131,6 +131,7 @@ main h4{
 
 #card{
     padding: 25px;
+    width: 85%;
 }
 
 .column {
@@ -151,9 +152,8 @@ section{
 }
 
 section img{
-    width: 100%;
-    height: 60%;
-    border-radius: 15px;
+    width: 150px;
+    padding: 15px;
 }
 
 section iframe{
