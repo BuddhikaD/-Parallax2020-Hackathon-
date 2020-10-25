@@ -109,8 +109,6 @@ main h2{
     padding: 40px;
     color: white;
     margin-top: 0;
-    position: fixed;
-    top: 4em;
 }
 
 main h3{
@@ -118,8 +116,8 @@ main h3{
     padding: 40px;
     color: white;
     margin-top: 0;
-    position: fixed;
     top: 0.1em;
+    margin-bottom: -40px;
 }
 
 main h4{
@@ -132,15 +130,11 @@ main h4{
 }
 
 #card{
-    position: fixed;
-    top: 23%;
     padding: 25px;
 }
 
 .column {
     display: inline-flex;
-    width: 28%;
-    height: 300px;
     padding: 10px;
     margin-left: 15px;
     border-radius: 20px;
@@ -162,6 +156,10 @@ section img{
     border-radius: 15px;
 }
 
+section iframe{
+    border-radius: 15px;
+}
+
 section h2{
     font-size: 1.3em;
     padding: 45px;
@@ -172,17 +170,10 @@ section h2{
 
 section h5{
     font-size: 1.5em;
-    position: fixed;
-    top: 48%;
-    padding-left: 0.3em;
-}
-
-section p{
-    
-    font-size: 1em;
-    position: fixed;
-    top: 55%;
-    padding-left: 0.5em;
+    display: inline-flex;
+    top: 60%;
+    padding-left: 1em;
+    margin-right: 1em;
 }
 
 #newsletter{
